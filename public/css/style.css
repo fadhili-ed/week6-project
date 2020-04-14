@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette:regular);
+#sec {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  min-height: 80vh;
+  height: auto;
+  width: 100%;
+  background-image: url("/images/coffee.jpg");
+  background-size: 100% 100%; }
+  #sec .first {
+    font-family: 'Courgette';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px; }
+
+@media only screen and (min-width: 1000px) {
+  #sec {
+    background-image: url("/images/lap.jpg");
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    position: static;
+    display: block;
+    text-align: center; }
+    #sec .first {
+      color: black;
+      padding-top: 90px;
+      padding-bottom: 60px; }
+    #sec #sec1 {
+      background-color: white; }
+  #sec3 {
+    display: flex;
+    margin-right: 40%; }
+    #sec3 img {
+      margin-right: 90px; }
+    #sec3 #txtarea {
+      display: flex;
+      justify-content: space-evenly; } }
+
+#sec1 {
+  display: block;
+  min-height: 20vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  opacity: 0.75; }
+  #sec1 .second {
+    text-align: center;
+    font-family: 'Courgette'; }
+  #sec1 .p1 {
+    text-align: center;
+    font-family: 'Courgette'; }
+  #sec1 .p2 {
+    text-align: center;
+    font-family: 'Courgette'; }
+
+#sec2 {
+  display: block;
+  min-height: 20vh;
+  background-color: dimgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.75; }
+  #sec2 .third {
+    color: white;
+    text-align: center; }
+  #sec2 .p3 {
+    color: white;
+    text-align: center; }
+  #sec2 .p4 {
+    color: white;
+    text-align: center; }
+
+#sec3 {
+  padding-top: 20px; }
+  #sec3 img {
+    height: 200px;
+    margin-left: 40%;
+    width: 150px;
+    border-radius: 50%; }
+  #sec3 #sec4 {
+    display: block;
+    min-height: 20vh;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 50%;
+    padding-top: 40px; }
+    #sec3 #sec4 .ta1 {
+      border-radius: 5px;
+      position: static;
+      margin-right: 10px; }
+    #sec3 #sec4 .ta2 {
+      border-radius: 5px;
+      position: static; }
+    #sec3 #sec4 .ta3 {
+      border-radius: 5px;
+      position: static; }
+    #sec3 #sec4 .btn1 {
+      border-radius: 5px;
+      position: relative;
+      background-color: white; }
+
+#sec5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 20vh;
+  padding-top: 10px;
+  background-color: #181515; }
+  #sec5 .btn2 {
+    padding: 20px 20px;
+    color: white;
+    border-color: white;
+    background-color: #181515; }
+  #sec5 .btn3 {
+    padding: 20px 20px;
+    color: white;
+    border-color: white;
+    background-color: #181515; }
+  #sec5 .btn4 {
+    color: white;
+    padding: 20px 20px;
+    border-color: white;
+    background-color: #181515; }
