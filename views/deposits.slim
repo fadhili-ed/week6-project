@@ -1,9 +1,9 @@
 h1 Deposits
 div id = "form_contents"
     form class = "deposits_form"
-        input type="text" placeholder="Name" 
+        input type="text" placeholder="Name" id="name"
         br    
-        input type="text" placeholder="Amount Deposited"
+        input type="text" placeholder="Amount Deposited" id="amount"
         br
-        button [onclick="window.location.href = '/deposits' " type="button" ]
+        button [onclick="myFunction()" type="button" ]
             | submit
