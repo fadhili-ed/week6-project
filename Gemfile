@@ -1,6 +1,9 @@
-source "https:/rubygems.org"
+source "https://rubygems.org"
 
-ruby "2.5.1"
+ruby "2.6.3"
 
 gem "sinatra"
 gem "slim"
+gem "rom"
+gem "rom-sql"
+gem "csv"
