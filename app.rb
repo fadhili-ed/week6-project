@@ -13,8 +13,9 @@ post '/deposits' do
     puts params[:name]
     puts params[:amount]
     puts params[:date]
-    CSV.open("db/deposits.csv", "wb") do |csv|
+    CSV.open("db/deposits.csv", "ab") do |csv|
         csv << [params[:name], params[:amount], params[:date]]
     end
+    slim :deposits
 end
 
