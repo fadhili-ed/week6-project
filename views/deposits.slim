@@ -1,4 +1,11 @@
 h1 Deposits
-form id = "deposits_form"
-    input type="text" placeholder="Amount Deposited"
-    button type="button" submit
+div id = "form_contents"
+    form class = "deposits_form"
+        input type="text" placeholder="Name" id="name"
+        br    
+        input type="text" placeholder="Amount Deposited" id="amount"
+        br
+        input type="date" id="date"
+        br
+        button [onclick="myFunction()" type="button" ]
+            | submit
